@@ -1,0 +1,23 @@
+{
+  "name": "continuum-demo",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "node --watch index.js",
+    "build:web": "npm --prefix web run build",
+    "install:web": "npm --prefix web install",
+    "dev": "concurrently -k -n server,web -c green,cyan \"node --watch index.js\" \"npm --prefix web run build:watch\""
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "otplib": "^12.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}

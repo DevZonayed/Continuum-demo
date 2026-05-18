@@ -1,0 +1,8 @@
+node_modules/
+.env
+web/dist/
+data/db.json
+.super-tester/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
