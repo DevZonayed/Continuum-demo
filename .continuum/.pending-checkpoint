@@ -1,0 +1,8 @@
+{
+  "trigger": "SessionEnd",
+  "why_session_ended": "unknown",
+  "ts": "2026-05-18T14:45:51.922Z",
+  "session_id": "93bc5376-2ce7-4ff6-9c7e-9731d50d60cf",
+  "transcript_path": "/Users/jonayedahamed/.claude/projects/-Users-jonayedahamed-Desktop-Projects-Personal-Continuum-demo/93bc5376-2ce7-4ff6-9c7e-9731d50d60cf.jsonl",
+  "archive_path": "/Users/jonayedahamed/Desktop/Projects/Personal/Continuum-demo/.continuum/archive/transcripts/2026-05-18T14-45-51-920Z__sessionend-unknown.jsonl.gz"
+}
